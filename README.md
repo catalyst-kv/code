@@ -11,11 +11,20 @@
 
 ## Setup
 ### Backend Datastore
-Refer to MangoDB guide: https://www.mongodb.com/docs/mongocli/stable/install
+Refer to guide: https://www.mongodb.com/docs/mongocli/stable/install
 
 ### CUDA
-Refer to Nvidia guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
+Refer to guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 
 ### Cache Server
+$ sudo apt update\
+$ sudo apt-get install gcc make libevent-dev libc6-dev
+$ git clone https://github.com/OCMLIKS/code
+
 
 ### YCSB
+Refer to guide: https://github.com/brianfrankcooper/YCSB/
+
+Trace Generator: https://github.com/has-lab/YCSB-tracegen
+
+
