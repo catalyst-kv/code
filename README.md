@@ -22,7 +22,7 @@ Refer to guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index
 $ sudo apt update
 $ sudo apt-get install gcc make libevent-dev libc6-dev
 $ git clone https://github.com/cocmlikvs/code.git
-$ cd code
+$ cd code/src
 ```
 For in-memory cache server
 ```shell
