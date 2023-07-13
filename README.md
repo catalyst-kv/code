@@ -17,14 +17,24 @@ Refer to guide: https://www.mongodb.com/docs/mongocli/stable/install
 Refer to guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html
 
 ### Cache Server
-$ sudo apt update\
+```shell
+$ sudo apt update
 $ sudo apt-get install gcc make libevent-dev libc6-dev
 $ git clone https://github.com/OCMLIKS/code.git
 $ tar -xvf code
+```
+For in-memory cache server
+```shell
 $ ./configure
+```
+For memory-flash cache server
+```shell
+./configure --enable-extstore
+```
+```shell
 $ make
 $ sodu make install
-
+```
 
 ### YCSB
 Refer to guide: https://github.com/brianfrankcooper/YCSB/
