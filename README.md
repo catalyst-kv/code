@@ -19,7 +19,11 @@ Refer to guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index
 ### Cache Server
 $ sudo apt update\
 $ sudo apt-get install gcc make libevent-dev libc6-dev
-$ git clone https://github.com/OCMLIKS/code
+$ git clone https://github.com/OCMLIKS/code.git
+$ tar -xvf code
+$ ./configure
+$ make
+$ sodu make install
 
 
 ### YCSB
