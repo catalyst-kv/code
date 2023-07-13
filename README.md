@@ -21,7 +21,7 @@ Refer to guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index
 ```shell
 $ sudo apt update
 $ sudo apt-get install gcc make libevent-dev libc6-dev
-$ git clone https://github.com/OCMLIKS/code.git
+$ git clone https://github.com/cocmlikvs/code.git
 $ tar -xvf code
 $ cd code
 ```
