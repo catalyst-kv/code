@@ -2,7 +2,8 @@
 - Nvidia GTX 1050 Ti or higher
 - PCIe 3.0 x8 or faster
 - DRAM 128 GB or more
-- Disk space 1 TB or more
+- Disk space 2 TB or more
+- SSD space 64 GB or more
 ## Software
 - Ubuntu 18.04 or later
 - MongoDB 4.2 or later
