@@ -1,6 +1,6 @@
 ## Hardware
 - Nvidia GTX 1050 Ti or higher
-- PCIe 3.0 x8 or faster
+- PCIe 3.0 x16 or faster
 - DRAM 128 GB or more
 - Disk space 2 TB or more
 - SSD space 64 GB or more
@@ -21,7 +21,7 @@ Refer to guide: https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index
 ```shell
 $ sudo apt update
 $ sudo apt-get install gcc make libevent-dev libc6-dev
-$ git clone https://github.com/cocmlikvs/code.git
+$ git clone https://github.com/catalyst-kv/code.git
 $ cd code/src
 ```
 For in-memory cache server
